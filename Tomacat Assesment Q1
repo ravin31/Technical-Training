@@ -1,0 +1,7 @@
+Tomcat Assignment QUESTION 1
+Create a tomcat user with user – “tomcat_user” and password – Test@123 with role
+– “manager-gui”
+
+
+<role rolename="manager-gui"/>
+<user username="tomcat_user" password="Test@123" roles="manager-gui"/>
